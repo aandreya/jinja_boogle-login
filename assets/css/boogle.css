@@ -1,0 +1,83 @@
+div {
+    font-family: Tahoma, Times, sans-serif;
+	font-size: 12px;
+    }
+/**/
+#glava {
+	float: right;
+    line-height: 42px;
+    }
+    #glava > a {
+        margin-left: 15px;
+        float:left;
+        color: black;
+        text-decoration: none;
+        }
+    #glava > a.meni {
+        width: 56px;
+        height: 42px;
+    }
+    #glava > a.prijava {
+        height: 42px;
+        background-color: #2673ef;
+        color: white;
+        padding: 0 30px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+    }
+/**/
+#vsebina {
+    clear: both;
+    width: 400px;
+    margin: 0 auto;
+    }
+    #vsebina > input[type=text] {
+        height: 40px;
+        width: 350px;
+        padding-right: 50px;
+        background: url(http://www.iconarchive.com/download/i90351/icons8/windows-8/Computer-Hardware-Keyboard-2.ico) no-repeat 358px center;
+        background-size: 32px 32px;
+    }
+    #vsebina > div {
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+        }
+        #vsebina > div a {
+            height: 40px;
+            width: 100px;
+            margin-left: 15px;
+            line-height: 40px;
+        	display: inline-block;
+            border-radius: 2px;
+        	background-color: #dee3ea;
+        	border: 1px solid #dee3ea;
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+            }
+/**/
+#noga {
+    height: 30px;
+    width: 100%;
+    display: block;
+    background-color: #dee3ea;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    }
+    #noga > div a {
+        margin: 8px 15px 10px 15px;
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+        letter-spacing: 1px;
+        }
+        #noga > div {
+            float: right;
+        }
+        #noga > div:first-child {
+            float: left;
+        }
